@@ -1,0 +1,6 @@
+//arch = zynq; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader]D:\MyProjects\6894\tinyTPU\tinyTPU.sdk\BOOT\Debug\BOOT.elf
+	D:\MyProjects\6894\tinyTPU\tinyTPU.sdk\TPU_wrapper_hw_platform_0\TPU_wrapper.bit
+}
