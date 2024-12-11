@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="D1DKan5N-PjMBznE8ATc">
+    <mxGraphModel dx="1221" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-1" target="esRI-CNnZLzJ3MV5Sz_u-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="130" />
+              <mxPoint x="220" y="130" />
+              <mxPoint x="220" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RU2_uO30FcN3DaynWKVP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-1" target="esRI-CNnZLzJ3MV5Sz_u-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RU2_uO30FcN3DaynWKVP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-1" target="esRI-CNnZLzJ3MV5Sz_u-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-1" value="weights" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-27" target="esRI-CNnZLzJ3MV5Sz_u-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-2" target="esRI-CNnZLzJ3MV5Sz_u-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-2" value="inputs&lt;div&gt;640(644)x1(int8)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-3" target="esRI-CNnZLzJ3MV5Sz_u-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="240" width="120" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-4" value="Reg_buffer0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-5" value="Reg_buffer1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-6" value="Reg_buffer2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-7" value="Reg_buffer3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-22" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="430" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-23" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="460" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-24" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="490" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-27" value="X" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="370" y="180" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-31" target="esRI-CNnZLzJ3MV5Sz_u-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-31" value="X" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="265" y="285" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-35" target="esRI-CNnZLzJ3MV5Sz_u-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-35" value="X" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="265" y="325" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-40" value="640(644)x1(int8)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="590" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-42" target="esRI-CNnZLzJ3MV5Sz_u-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-42" value="ADD BiasB/activation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esRI-CNnZLzJ3MV5Sz_u-44" target="esRI-CNnZLzJ3MV5Sz_u-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-44" value="ADD BiasC/activation" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-47" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-48" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="esRI-CNnZLzJ3MV5Sz_u-49" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="410" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RU2_uO30FcN3DaynWKVP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="259.74" as="sourcePoint" />
+            <mxPoint x="450" y="259.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RU2_uO30FcN3DaynWKVP-4" value="ADD BiasA/activation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RU2_uO30FcN3DaynWKVP-5" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RU2_uO30FcN3DaynWKVP-6" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RU2_uO30FcN3DaynWKVP-7" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
