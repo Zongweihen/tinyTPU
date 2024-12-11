@@ -33,7 +33,7 @@ entity TPU is
     generic(
         MATRIX_WIDTH            : natural := 14; --!< The width of the Matrix Multiply Unit and busses.
         WEIGHT_BUFFER_DEPTH     : natural := 32768; --!< The depth of the weight buffer.
-        UNIFIED_BUFFER_DEPTH    : natural := 4096 --!< The depth of the unified buffer.
+        UNIFIED_BUFFER_DEPTH    : natural := 8192 --!< The depth of the unified buffer.
     );  
     port(   
         CLK, RESET              : in  std_logic;
@@ -105,7 +105,7 @@ architecture BEH of TPU is
         generic(
             MATRIX_WIDTH            : natural := 14;
             WEIGHT_BUFFER_DEPTH     : natural := 32768;
-            UNIFIED_BUFFER_DEPTH    : natural := 4096
+            UNIFIED_BUFFER_DEPTH    : natural := 8192
         );
         port(
             CLK, RESET          : in  std_logic;

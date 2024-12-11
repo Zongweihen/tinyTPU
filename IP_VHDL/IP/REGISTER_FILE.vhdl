@@ -32,7 +32,7 @@ library IEEE;
 entity REGISTER_FILE is
     generic(
         MATRIX_WIDTH    : natural := 14;
-        REGISTER_DEPTH  : natural := 512
+        REGISTER_DEPTH  : natural := 1024
     );
     port(
         CLK, RESET          : in  std_logic;

@@ -34,7 +34,7 @@ entity UNIFIED_BUFFER is
     generic(
         MATRIX_WIDTH    : natural := 14;
         -- How many tiles can be saved
-        TILE_WIDTH      : natural := 4096 --!< The depth of the buffer.
+        TILE_WIDTH      : natural := 8192 --!< The depth of the buffer.
     );
     port(
         CLK, RESET      : in  std_logic;
